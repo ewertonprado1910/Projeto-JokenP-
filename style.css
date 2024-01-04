@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://source.unsplash.com/1600x900/?landscape);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.buttons {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+
+}
+
+button {
+    background-color: #fafafa;
+    padding: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 5px 18px #fafafa;
+
+}
+
+button:hover {
+    opacity: 0.3;
+}
+
+.text-1 span {
+    color: rgb(0, 23, 156);
+    font-size: 25px;
+
+}
+
+.text-2 span {
+    color: rgb(255, 3, 3);
+    font-size: 25px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px 0;
+    color: #fafafa;
+}
+
+.result {
+    font-size: 30px;
+    color: red;
+    margin-top: 15px;
+}
+
+h1 {
+    text-shadow: 0px 5px 18px #fafafa;
+    color: #fafafa;
+    margin-bottom: 15px;
+}
